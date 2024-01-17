@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Defines a base model class."""
 
+"""Defines a base model class."""
 import json
 import csv
 import turtle
+
 
 class Base:
     """Base model.
@@ -185,4 +186,3 @@ class Base:
             turt.hideturtle()
 
         turtle.exitonclick()
-
